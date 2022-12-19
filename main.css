@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); font-size: 10px}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:hsl(225, 100%, 94%);
+}
+
+.order-summary{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.order-header{
+    height: 200px;
+    width: 100%;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 20px 20px 0 0;
+    background-image: url(/images/illustration-hero.svg);
+    background-size: cover;
+}
+
+.order-body{
+   padding: 30px 50px; 
+}
+
+.order-body-top-section{
+    text-align: center;
+}
+
+.order-title{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: hsl(223, 47%, 23%);
+}
+
+.order-text{
+    color: hsl(224, 23%, 55%);
+}
+
+.order-amount-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.amount-section{
+    display: flex;
+    width: 250px;
+    align-items: center;
+}
+
+.order-plan-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.order-plan-title{
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+
+.order-price{
+    color: hsl(224, 23%, 55%);
+}
+
+a{
+    font-size: 14px;
+    font-weight: 500;
+}
+a:hover{
+    color: #766DF1;
+}
+
+.order-button-proceed{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 15px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 30px 0px;
+    box-shadow: 0px 10px 50px hsla(245, 75%, 52%, 0.309);
+    cursor: pointer;
+}
+
+.order-button-proceed:hover{
+    background-color: #766DF1;
+}
+
+.order-button-cancel{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.order-button-cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
