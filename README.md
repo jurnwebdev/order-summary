@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview](/screenshot.jpg)
+![Design preview](https://github.com/jurnwebdev/order-summary/blob/main/Screenshot.jpg)
 
 ### Links
 
