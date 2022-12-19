@@ -2,9 +2,6 @@
     body{
         background-image: url(/images/pattern-background-mobile.svg);
         height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .order-summary{
@@ -12,6 +9,7 @@
         height: 600px;
         border-radius: 20px;
         background-color: white;
+        margin-top: 20px;
         margin-bottom: 0px;
     }
 
